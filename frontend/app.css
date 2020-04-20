@@ -1,0 +1,57 @@
+body {
+    color: #ff6f5e;
+    font-family: 'Comfortaa', cursive;
+    background-color: #f5f0e3;
+}
+
+#header {
+    background-color: #f0134d;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #f5f0e3;
+}
+
+#healthex {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+i {
+    padding: 20px;
+}
+
+.borders{
+    background-color: #ff6f5e;
+    height: 30px;
+
+}
+
+.container {
+    padding-top: 10px;
+}
+ 
+#pseudo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    margin: 17px;
+}
+
+#dark {
+    
+    background-color: #f0134d;
+    padding: 10px; 
+    border-radius: 7px;
+    color: #f5f0e3;
+}
+
+#me {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 3px;
+}

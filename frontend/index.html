@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="jquery-3.2.1.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="app.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f4c3f2aa37.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <section class="borders"></section>
+        <section id="header" class="">
+            <div class="p-5">
+                <h1 id="healthex" class="text-center"><i class="far fa-heart"></i>HEALTHEX<h1>
+            </div>
+        </section>
+        <section class="borders"></section>
+
+        <div class="container">
+            <div class="">
+        <div id="login-div">
+            <input placeholder="username" type="text" id="loginbox">
+            <button id="loginbtn" class="btn btn-outline-primary btn-sm">LOGIN</button>
+        </div>
+        
+    </div>
+    <div id="chat-div" style="display: none">
+        
+        <input placeholder="new message" type="text" id="msgbox">
+        <button id="sendmsg" class="btn btn-outline-primary btn-sm">SEND</button>
+                <div id="pseudo">
+                </div>
+        <ul id="msglist"></ul>
+    </div>
+</div>
+        
+    </body>
+</html>
